@@ -1,10 +1,12 @@
 #pragma once
+#include "Headers.h"
 using namespace std;
 
 bool bl_debugmode;
 bool bl_logging;
 
 int i_version = 001;
+int i_sleeptime = 500;
 
 static int i_global_hotkey01;
 static int i_global_hotkey02;
@@ -16,7 +18,9 @@ static int i_global_hotkey07;
 static int i_global_hotkey08;
 static int i_global_hotkey09;
 
-static string s_configfile = "\\batchkeyer.cfg";
+static string s_configfile = "\\hotbatch.cfg";
+static string s_global_cfgFilePath;
+static string s_global_CurrentPath;;
 
 static string s_global_hotkey01;
 static string s_global_hotkey02;

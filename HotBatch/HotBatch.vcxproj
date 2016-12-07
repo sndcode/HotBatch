@@ -146,6 +146,7 @@
     <ClCompile Include="cMain.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Headers.h" />
     <ClInclude Include="Variables.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
